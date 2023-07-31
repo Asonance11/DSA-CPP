@@ -6,11 +6,12 @@ int main()
 {
     int arr[9] = {6, 2, 1, 7, 9, 5, 3, 8, 4};
 
+    // Function call
     bubbleSort(arr);
 
     for (int i = 0; i < 9; i++)
     {
-        std::cout << arr[i] << " ";
+        std::cout << arr[i] << " "; // prints the elements of the array after sorting
     }
 
     return 0;
